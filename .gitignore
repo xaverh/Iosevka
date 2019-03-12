@@ -28,12 +28,10 @@ node_modules
 .settings
 
 # Special
-*.ttf
 *.7z
 test/
 preview/
 build/
-dist/
 ref/
 pages/
 releases/
