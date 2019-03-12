@@ -1,0 +1,47 @@
+{
+// See https://go.microsoft.com/fwlink/?LinkId=733558
+// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Update Checksums",
+			"command": "updpkgsums",
+			"options": {
+				"cwd": "${workspaceRoot}"
+			}
+		},
+		{
+			"label": "Update .SRCINFO",
+			"command": "sh",
+			"args": [
+				"-c",
+				"makepkg --printsrcinfo > .SRCINFO"
+			],
+			"options": {
+				"cwd": "${workspaceRoot}"
+			}
+		},
+		{
+			"label": "Make Package",
+			"command": "makepkg",
+			"args": [
+				"-Ccsfi"
+			],
+			"options": {
+				"cwd": "${workspaceRoot}"
+			}
+		},
+		{
+			"label": "Build",
+			"dependsOn": [
+				"Update Checksums",
+				"Update .SRCINFO",
+				"Make Package"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

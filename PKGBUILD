@@ -3,7 +3,7 @@
 # Contributor: Markus Weimar <mail@markusweimar.de>
 pkgbase=ttf-iosevka-xha
 pkgname=(${pkgbase}{,-term})
-pkgver=r1186.a931066d
+pkgver=r1187.6780d860
 pkgrel=1
 pkgdesc='A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.'
 arch=('any')
@@ -14,17 +14,13 @@ depends=('fontconfig' 'xorg-font-utils')
 conflicts=()
 provides=()
 source=(
-	'Backers.md'
-	'ISSUE_TEMPLATE.md'
 	'LICENSE.md'
 	'README.md'
 	'build-plans.toml'
 	'emptyfont.toml'
 )
 
-sha512sums=('f05205cf136f02a023792854524768b677da09a5782dbacb02d17e51e987ebf35a94a94bb81fc98b99f6fc63f0fcddee353de498a0d2356be7d57425532d4f59'
-            'e3cb8e7441ca096efd8bf3d02b3352d53d1c6f6c62ca1253572c5edd081205b0fe1138bece7354aa6d86aea3edf287321d7850659c264262ac16cc888dd0697c'
-            '30da782c1f0775cb5c68743aded9f17ff9083ea9345636ecd4c276ad787ef846be2d8f17377e851854d083b4413010bf8b7870022f0aab9f555b674adfd5a0d0'
+sha512sums=('30da782c1f0775cb5c68743aded9f17ff9083ea9345636ecd4c276ad787ef846be2d8f17377e851854d083b4413010bf8b7870022f0aab9f555b674adfd5a0d0'
             '99258f0a6116c20590121efc214175bacff6fd1c5b122078e9f743221090720fe05e986da34e5a16a93291e9234e67829de6d974fa7123a21125c0a797dfe7e6'
             '55e201626ead9a00965c447f3d9af4c49e25b0f9397f462e4c355313d403b5954911fdff9cecff972bc3b03d43eeb74c6ffd861257b786cab7e70e7e7fad6cf0'
             '583e7fbfefdd879af88582499aae4d296fc6afd9132acd3f62dd66ab4368be2758b0a99ebf0b72ba2a3a66d78c8651ecd2753a837c5cf02b1382fab829116fc2')
