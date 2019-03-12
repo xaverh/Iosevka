@@ -1,6 +1,6 @@
-pkgbase = ttf-iosevka-xha
+pkgbase = ttf-iosifovich
 	pkgdesc = A slender monospace sans-serif and slab-serif typeface inspired by Pragmata Pro, M+ and PF DIN Mono.
-	pkgver = r1187.6780d860
+	pkgver = r1189.30b3ffe9
 	pkgrel = 1
 	url = https://be5invis.github.io/
 	arch = any
@@ -12,15 +12,9 @@ pkgbase = ttf-iosevka-xha
 	depends = fontconfig
 	depends = xorg-font-utils
 	source = LICENSE.md
-	source = README.md
-	source = build-plans.toml
-	source = emptyfont.toml
 	sha512sums = 30da782c1f0775cb5c68743aded9f17ff9083ea9345636ecd4c276ad787ef846be2d8f17377e851854d083b4413010bf8b7870022f0aab9f555b674adfd5a0d0
-	sha512sums = 99258f0a6116c20590121efc214175bacff6fd1c5b122078e9f743221090720fe05e986da34e5a16a93291e9234e67829de6d974fa7123a21125c0a797dfe7e6
-	sha512sums = 55e201626ead9a00965c447f3d9af4c49e25b0f9397f462e4c355313d403b5954911fdff9cecff972bc3b03d43eeb74c6ffd861257b786cab7e70e7e7fad6cf0
-	sha512sums = 583e7fbfefdd879af88582499aae4d296fc6afd9132acd3f62dd66ab4368be2758b0a99ebf0b72ba2a3a66d78c8651ecd2753a837c5cf02b1382fab829116fc2
 
-pkgname = ttf-iosevka-xha
+pkgname = ttf-iosifovich
 
-pkgname = ttf-iosevka-xha-term
+pkgname = ttf-iosifovich-term
 

@@ -1,14 +1,14 @@
-[buildPlans.iosevka-xha]
-family = "Iosevka Xha"
-design = ["cv58", "cv24", "cv25", "cv40", "cv42", "cv13", "cv51", "cv47", "cv16", "cv61", "cv20", "cv22", "cv29", "cv63", "cv33", "cv34", "cv37", "cv38"]
-upright = ["cv09", "cv05", "cv01", "cv52", "cv44", "cv48"]
-italic = ["cv08", "cv04", "cv02", "cv53", "cv49", "cv45"]
+[buildPlans.iosifovich]
+family = "Iosifovich"
+design = ["cv58", "cv25", "cv40", "cv42", "cv13", "cv51", "cv47", "cv16", "cv61", "cv20", "cv22", "cv29", "cv63", "cv33", "cv34", "cv37", "cv38"]
+upright = ["cv09", "cv05", "cv01", "cv52", "cv44", "cv48", "cv11"]
+italic = ["cv08", "cv24", "cv04", "cv02", "cv53", "cv49", "cv45"]
 
-[buildPlans.iosevka-xha-term]
-family = "Iosevka Xha Term"
-design = ["cv58", "cv24", "cv25", "cv40", "cv42", "cv13", "cv51", "cv47", "cv16", "cv61", "cv20", "cv22", "cv29", "cv63", "cv33", "cv34", "cv37", "cv38"]
-upright = ["cv09", "cv05", "cv01", "cv52", "cv44", "cv48"]
-italic = ["cv08", "cv04", "cv02", "cv53", "cv49", "cv45"]
+[buildPlans.iosifovich-term]
+family = "Iosifovich Terminal"
+design = ["cv58", "cv25", "cv40", "cv42", "cv13", "cv51", "cv47", "cv16", "cv61", "cv20", "cv22", "cv29", "cv63", "cv33", "cv34", "cv37", "cv38"]
+upright = ["cv09", "cv05", "cv01", "cv52", "cv44", "cv48", "cv11"]
+italic = ["cv08", "cv24", "cv04", "cv02", "cv53", "cv49", "cv45"]
 
 [weights.thin]
 shape = 100
